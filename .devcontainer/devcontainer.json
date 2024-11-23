@@ -1,0 +1,13 @@
+{
+  "name": "Node.js Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/home/node/app",
+  "shutdownAction": "stopCompose",
+//  "extensions": [
+//    "dbaeumer.vscode-eslint",
+//    "esbenp.prettier-vscode",
+//    "ms-azuretools.vscode-docker"
+//  ],
+  "postCreateCommand": "npm install"
+}
