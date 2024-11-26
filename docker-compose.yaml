@@ -5,7 +5,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - .:/home/node/app
+      - .:/home/node/app:Z
 
   zookeeper:
     image: confluentinc/cp-zookeeper:7.3.0
